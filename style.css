@@ -1,0 +1,100 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #c3d8d5;
+  margin: 0;
+  padding: 40px 20px;
+}
+
+h1,
+h2 {
+  text-align: center;
+  color: #333;
+}
+
+form {
+  background-color: #213433;
+  max-width: 500px;
+  margin: 0 auto 30px auto;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+input[type="date"] {
+  font-family: Arial, sans-serif;
+  color: rgb(112, 112, 112);
+}
+input {
+  padding: 10px 14px;
+  font-size: 16px;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  outline: none;
+  transition: border 0.2s;
+}
+
+input:focus {
+  border-color: #1ff2cfb9;
+}
+
+button {
+  font-family: Arial, sans-serif;
+  padding: 12px;
+  background-color: #247767;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+button:hover {
+  background-color: #1f6356;
+}
+
+h2 {
+  max-width: 500px;
+  margin: 0 auto 16px auto;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.erro {
+  border: 2px solid red;
+}
+li {
+  background-color: #ffffff;
+  padding: 16px;
+  border-radius: 12px;
+  margin-bottom: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  color: #333;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.cliente-acoes {
+  display: flex;
+  gap: 8px;
+}
+
+.btn-remover {
+  background-color: #1f6356;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+.btn-remover:hover {
+  background-color: #213433;
+}
