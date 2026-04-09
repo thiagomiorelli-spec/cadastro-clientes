@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>HTML + CSS</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <h1>Cadastro de Clientes</h1>
+    <form id="formCliente">
+      <input
+        type="text"
+        id="nome"
+        placeholder="Nome completo"
+        title="Digite seu nome completo."
+      />
+      <input
+        type="text"
+        id="cpf"
+        placeholder="Digite o seu CPF XXX.XXX.XXX-XX"
+        title="Insira o seu CPF."
+      />
+      <input
+        type="email"
+        id="email"
+        placeholder="E-mail válido"
+        title="Insira um e-mail válido."
+      />
+      <input
+        type="tel"
+        id="telefone"
+        placeholder="Telefone DDD + 99999-9999"
+        title="Insira seu número de telefone."
+      />
+      <button type="submit">Cadastrar</button>
+    </form>
+    <h2>Clientes Cadastrados</h2>
+    <ul id="listaClientes"></ul>
+    <script src="app.js"></script>
+  </body>
+</html>
